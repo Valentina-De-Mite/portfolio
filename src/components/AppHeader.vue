@@ -30,8 +30,15 @@ export default {
   </header>
 </template>
 
-<style scoped>
+<style lang="scss">
+@import "../scss/partials/variables.scss";
 a {
   text-decoration: none;
+  color: $color-primary;
+  font-weight: 600;
+}
+
+a:hover {
+  border-bottom: 5px solid $color-primary;
 }
 </style>

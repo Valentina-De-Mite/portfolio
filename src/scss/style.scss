@@ -1,0 +1,14 @@
+@use "../node_modules/bootstrap/scss/bootstrap.scss";
+@use "./partials/variables.scss" as *;
+
+:root {
+  --test-color: $color-background;
+}
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.main,
+.header {
+  background-color: black;
+}

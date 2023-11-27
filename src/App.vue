@@ -21,7 +21,14 @@ export default {
   </main>
 </template>
 
-<style scoped>
+<style lang="scss">
+@import "./scss/partials/variables.scss";
+
+header,
+main {
+  background-color: $color-background;
+}
+
 /* .logo {
   height: 6em;
   padding: 1.5em;
