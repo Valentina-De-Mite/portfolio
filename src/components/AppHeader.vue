@@ -13,7 +13,7 @@ export default {
     <nav class="navbar navbar-expand-lg p-3 shadow">
       <div class="container">
         <div class="col-4 d-flex justify-content-center">
-          <img class="w-25" src="../assets/images/logo light.png" alt="" />
+          <img class="w-25 logo" src="../assets/images/logo light.png" alt="" />
         </div>
 
         <div class="col-4 d-flex justify-content-end gap-4">
@@ -38,7 +38,12 @@ a {
   font-weight: 600;
 }
 
+.logo:hover {
+  transform: scale(1.1);
+}
+
 a:hover {
   border-bottom: 5px solid $color-primary;
+  transform: scale(1.1);
 }
 </style>
