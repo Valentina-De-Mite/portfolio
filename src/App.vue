@@ -24,10 +24,10 @@ export default {
 <style lang="scss">
 @import "./scss/partials/variables.scss";
 
-header,
-main {
-  background-color: $color-background;
-}
+// header,
+// main {
+//   background-color: $color-background;
+// }
 
 /* .logo {
   height: 6em;

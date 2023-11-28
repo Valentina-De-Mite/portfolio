@@ -119,6 +119,6 @@ export default {
       </div>
     </section>
 
-    <div class="col-2 border-black"></div>
+    <div class="col-2"></div>
   </section>
 </template>

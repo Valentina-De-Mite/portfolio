@@ -12,8 +12,17 @@ export default {
     darkThemeSwitch() {
       // this.themeChanger._darkThemeSwitch();
       const element = document.body;
-      element.dataset.bsTheme =
-        element.dataset.bsTheme == "light" ? "dark" : "light";
+      if (element.dataset.bsTheme == "light") {
+        element.dataset.bsTheme = "dark";
+        document.getElementById("logo-light").classList.add("d-none");
+        document.getElementById("logo-dark").classList.remove("d-none");
+        // img.src = "../assets/images/logo dark.png";
+        // img.parentElement.append(img);
+      } else {
+        element.dataset.bsTheme = "light";
+        document.getElementById("logo-dark").classList.add("d-none");
+        document.getElementById("logo-light").classList.remove("d-none");
+      }
     },
   },
 
@@ -28,7 +37,18 @@ export default {
     <nav class="navbar navbar-expand-lg p-3 shadow">
       <div class="container">
         <div class="col-4 d-flex justify-content-start">
-          <img class="w-25 logo" src="../assets/images/logo light.png" alt="" />
+          <img
+            id="logo-light"
+            class="w-25 logo"
+            src="../assets/images/logo-dark.png"
+            alt=""
+          />
+          <img
+            id="logo-dark"
+            class="w-25 logo d-none"
+            src="../assets/images/logo-light.png"
+            alt=""
+          />
         </div>
 
         <div class="col-4 d-flex justify-content-center gap-4">
