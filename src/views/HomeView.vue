@@ -32,9 +32,12 @@ export default {
       >
         <div class="wrapper">
           <div class="aside">
-            <ul class="my-5">
+            <ul class="my-5 d-flex flex-column justify-content-center">
               <li>
-                <a href="link-nav">
+                <a
+                  class="text-decoration-none"
+                  href="https://github.com/Valentina-De-Mite"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
@@ -50,7 +53,10 @@ export default {
                 </a>
               </li>
               <li>
-                <a class="link-nav" href="">
+                <a
+                  class="link-nav"
+                  href="https://www.linkedin.com/in/valentina-de-mite-a86497238/overlay/contact-info"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
@@ -93,9 +99,9 @@ export default {
       </div>
 
       <section
-        class="container wrapper_inner my-5 d-flex justify-content-center px-5"
+        class="container wrapper_inner my-5 d-flex justify-content-center px-5 flex-wrap"
       >
-        <div class="content">
+        <div class="content col-12">
           <p class="fs-5">Hello, my name is</p>
           <p class="fs-1">Valentina De Mite</p>
 
@@ -106,8 +112,17 @@ export default {
           </p>
 
           <button class="button-74">
-            <a href="">Find more!</a>
+            <a class="link-nav" href="">Find more!</a>
           </button>
+        </div>
+
+        <div id="about col-12 ">
+          <p class="fs-1 mt-5">About me</p>
+          <p class="fs-3">
+            I'm a Junior Full Stack Web Developer with a passion for design and
+            UX/UI. I'm really enjoy learning new skills and implementing
+            programming language.
+          </p>
         </div>
       </section>
 
