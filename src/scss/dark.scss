@@ -1,0 +1,22 @@
+@use "../node_modules/bootstrap/scss/bootstrap.scss";
+@use "./partials/variables.scss" as *;
+
+:root {
+  --color-primarydark: #e4e2de;
+  --color-secondarydark: #daa6e8;
+  --color-background: #320f4a;
+}
+body {
+  background-color: var(--color-background) !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  color: var(--color-secondarydark) !important;
+}
