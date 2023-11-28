@@ -60,14 +60,10 @@ a {
   color: $color-primary;
   font-weight: 600;
 }
-
 .logo:hover {
   transform: scale(1.1);
 }
 
-a:hover {
-  border-bottom: 5px solid $color-primary;
-}
 .theme-switch-wrapper {
   display: flex;
   align-items: center;

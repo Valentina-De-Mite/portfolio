@@ -8,6 +8,12 @@
   font-family: "Quicksand", sans-serif;
 }
 
+header {
+  a:hover {
+    border-bottom: 5px solid $color-primary;
+  }
+}
+
 .fs-1 {
   color: $color-primary;
   font-weight: 800;
@@ -34,10 +40,6 @@ li {
   top: 250px;
 }
 
-.link-nav {
-  text-decoration: none !important;
-}
-
 .vl {
   border-left: 6px solid $color-primary;
   height: 300px;
@@ -58,8 +60,6 @@ aside {
   display: flex;
   height: 100%;
 }
-
-/* CSS */
 
 /* CSS */
 .button-74 {
