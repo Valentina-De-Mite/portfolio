@@ -1,9 +1,6 @@
 @use "../node_modules/bootstrap/scss/bootstrap.scss";
 @use "./partials/variables.scss" as *;
 
-:root {
-  --test-color: $color-background;
-}
 * {
   font-family: "Quicksand", sans-serif;
 }
@@ -13,7 +10,7 @@ header {
     border-bottom: 5px solid $color-primary;
   }
 
-  height: 15vh;
+  height: 20vh;
 }
 
 .fs-1 {
@@ -50,7 +47,7 @@ body {
 }
 main {
   overflow-y: auto;
-  height: 85vh;
+  height: 80vh;
 }
 aside {
   flex: 1 0 10%;

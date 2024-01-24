@@ -1,5 +1,6 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
+import LeftSideBar from "./components/LeftSideBar.vue";
 
 // import { store } from "./store.js";
 
@@ -10,14 +11,22 @@ export default {
   },
   components: {
     AppHeader,
+    LeftSideBar,
   },
 };
 </script>
 
 <template>
   <AppHeader></AppHeader>
+
   <main>
-    <router-view></router-view>
+    <div class="d-flex justify-content-between g-3">
+      <div class="w-50">
+        <LeftSideBar></LeftSideBar>
+      </div>
+
+      <router-view></router-view>
+    </div>
   </main>
 </template>
 

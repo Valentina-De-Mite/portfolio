@@ -33,7 +33,7 @@ export default {
 </script>
 
 <template>
-  <header class="pb-2">
+  <header>
     <nav class="navbar navbar-expand-lg p-3 shadow">
       <div class="container">
         <div class="col-4 d-flex justify-content-start">
@@ -52,13 +52,13 @@ export default {
         </div>
 
         <div class="col-4 d-flex justify-content-center gap-4">
-          <a href=""> About </a>
-          <a href=""> Experiences </a>
+          <a href=""> Esperienze </a>
           <!-- <RouterLink to="/projects" class="nav-link text-white">
           Projects
         </RouterLink> -->
-          <a href=""> Projects </a>
-          <a href=""> Contact </a>
+          <a href=""> Progetti </a>
+          <a href=""> Contatti </a>
+          <a href=""> CV </a>
           <div class="col-4 d-flex justify-content-end">
             <div class="theme-switch-wrapper">
               <label class="theme-switch" for="checkbox">
@@ -140,5 +140,9 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.navbar {
+  z-index: 99;
 }
 </style>
